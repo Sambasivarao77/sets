@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    set<int> s1;
+    s1.insert(20);
+    s1.insert(10);
+    s1.insert(40);
+    s1.insert(50);
+    s1.insert(30);
+    s1.insert(20);
+for(auto elem : s1)
+        cout<<elem<<" ";
+    
+set<string> s2;
+    s2.insert("abcd");
+    s2.insert("ab");
+    s2.insert("ad");
+    s2.insert("bcd");
+    s2.insert("ab");
+    s2.insert("abcd");
+    //set<int>::iterator it;
+    cout<<"\n";
+    for(auto elem : s2)
+        cout<<elem<<" ";
+    return 0;
+}
